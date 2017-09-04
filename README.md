@@ -1,3 +1,5 @@
+#### Download those python files and that data12.txt file to the home directory
+
 ### CONFIGURE HADOOP
 ```  start-dfs.sh ```
 

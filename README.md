@@ -1,7 +1,7 @@
 ### CONFIGURE HADOOP
-``` ~$ start-dfs.sh ```
+```  start-dfs.sh ```
 
-``` ~$ start-yarn.sh ```
+```  start-yarn.sh ```
 
 ##### Meanwhile, make those two python files executable using
 ``` chmod +x /home/nikita/mapper.py ```
@@ -15,7 +15,7 @@ Change names accordingly, duh.
 
 ``` cd $HADOOP_HOME ```
 
-``` $ hdfs dfs -put ~/data12 /input ```
+```  hdfs dfs -put ~/data12 /input ```
 
 Assuming you have ``` /input ``` as a directory in hdfs, and the data12 file is in ``` home/user ``` directory
 

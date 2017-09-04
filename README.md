@@ -21,7 +21,7 @@ Assuming you have ``` /input ``` as a directory in hdfs, and the data12 file is 
 
 Now to run Map Reduce, using Hadoop Streaming
 
-``` hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.7.4.jar -D mapreduce.job.reduces=2     -file /home/nikita/mapper.py    -mapper /home/nikita/mapper.py -file /home/nikita/reducer.py   -reducer '/home/nikita/reducer.py hi1' -input /input/data12 -input /input/data1 -output /input/data1out ```
+``` hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.7.4.jar -D mapreduce.job.reduces=2     -file /home/nikita/mapper.py    -mapper /home/nikita/mapper.py -file /home/nikita/reducer.py   -reducer '/home/nikita/reducer.py hi1' -input /input/data12  -output /input/data1out ```
 
 Once done, view using
 ``` hdfs dfs -cat input/data1out/part-00000 ``` 

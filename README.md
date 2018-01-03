@@ -1,4 +1,5 @@
-#### Download those python files and that data12.txt file to the home directory
+#### Word Count Map Reduce with HDFS
+Simple MR job for word count, based on dataset with format as in ```data12``` file.
 
 ### CONFIGURE HADOOP
 ```  start-dfs.sh ```
